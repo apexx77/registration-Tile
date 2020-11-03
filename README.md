@@ -10,7 +10,7 @@
 
 * Start the server and connect it with the project through appropriate connector.
 * Create a database with the desired name and the enter the name of the database name in this [file](https://github.com/apexx77/Registration-Tile/blob/master/django_project/settings.py) in 'DATABASES'.
-* And then, enter the username`root`, host`localhost`, port`3306` and password. These are the default values when connected to MySQL database.
+* And then, enter the username `root`, host `localhost`, port `3306` and password. These are the default values when connected to MySQL database.
 
 ## Running the application
 
