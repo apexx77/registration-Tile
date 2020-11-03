@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registraion page</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="{% static 'css/roboto-font.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-5/css/fontawesome-all.min.css' %}">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+</head>
+<body class="form-v5">
+	<div class="page-content">
+		<div class="form-v5-content">
+			<form class="form-detail" action="final" method="post">
+				<h2>Registration Form</h2>
+				<div class="form-row">
+					<label for="full-name">First Name</label>
+					<input type="text" name="first-name" id="first-name" class="input-text" placeholder="First Name" required>
+					<i class="fas fa-user"></i>
+				</div>
+				<div class="form-row">
+					<label for="full-name">Last Name</label>
+					<input type="text" name="last-name" id="last-name" class="input-text" placeholder="Last Name" required>
+					<i class="fas fa-user"></i>
+				</div>
+				<div class="form-row">
+					<label for="full-name">User Name</label>
+					<input type="text" name="user-name" id="user-name" class="input-text" placeholder="User Name" required>
+					<i class="fas fa-user"></i>
+				</div>
+				<div class="form-row">
+					<label for="your-email">Your Email</label>
+					<input type="text" name="your-email" id="your-email" class="input-text" placeholder="Your Email" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+					<i class="fas fa-envelope"></i>
+				</div>
+				<div class="form-row">
+					<label for="full-name">Password</label>
+					<input type="text" name="password1" id="password1" class="input-text" placeholder="Password" required>
+					<i class="fas fa-user"></i>
+				</div>
+				<div class="form-row">
+					<label for="full-name">Confirm Password</label>
+					<input type="text" name="password2" id="password2" class="input-text" placeholder="Confirm Password" required>
+					<i class="fas fa-user"></i>
+				</div>
+				<div class="form-row-last">
+                    {% csrf_token %}
+					<input type="submit" name="register" class="register" value="Register">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
