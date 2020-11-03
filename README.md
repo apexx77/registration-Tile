@@ -30,5 +30,5 @@ To run the application:
 * [x] Database Connection
 * [x] Migrations are made
  
-
+<p align="center">&copy; <a href="https://github.com/apexx77">Asif Ahmad</a></p>
 
