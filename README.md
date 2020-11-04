@@ -29,6 +29,18 @@ To run the application:
 * [x] Server Connection
 * [x] Database Connection
 * [x] Migrations are made
+
+<div align="center" style="padding-top:10px;">
+
+<img src="https://github.com/apexx77/Registration-Tile/blob/master/img/html-5.png" width=40px style="padding-right:50px;">
+
+<img src="https://github.com/apexx77/Registration-Tile/blob/master/img/css.png" width=40px style="padding-right:50px;">
+
+<img src="https://github.com/apexx77/Registration-Tile/blob/master/img/javascript.png" width=40px style="padding-right:50px;">
+
+<img src="https://github.com/apexx77/Registration-Tile/blob/master/img/django.png" width=40px style="padding-right:50px;">
+
+</div>
  
 <p align="center">&copy; <a href="https://github.com/apexx77">Asif Ahmad</a></p>
 
