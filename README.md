@@ -15,7 +15,7 @@
 ## Running the application
 
 To run the application:
-* Open the terminal and navigate to the project directory and make migrations by executing `python manage.py makemigrations`
+* Open the terminal and navigate to the project directory and make migrations by executing the command `python manage.py makemigrations`
 * Then, execute `python manage.py migrate`
 * Then run the server by executing `python manage.py runserver`
 
