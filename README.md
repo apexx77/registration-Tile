@@ -30,7 +30,7 @@ To run the application:
 * [x] Database Connection
 * [x] Migrations are made
 
-<div align="center" style="padding-top:10px;">
+<div align="center" style="padding-top:20px;">
 
 <img src="https://github.com/apexx77/Registration-Tile/blob/master/img/html-5.png" width=100px style="padding-right:50px;">
 
