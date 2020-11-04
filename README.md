@@ -42,6 +42,8 @@ To run the application:
 
 <img src="https://github.com/apexx77/Registration-Tile/blob/master/img/django.png" width=100px style="padding-right:100px;">
 
+<img src="https://github.com/apexx77/Registration-Tile/blob/master/img/mysql.png" width=100px style="padding-right:100px;">
+
 </div>
  
 <p align="center">&copy; <a href="https://github.com/apexx77">Asif Ahmad</a></p>
